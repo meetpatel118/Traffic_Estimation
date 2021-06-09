@@ -1,3 +1,7 @@
+"""
+Image processing file to pre-process the images. Preprocessing steps like Cropping, Background Subtraction, Closing, Contour, and Multiplication.
+This also include renaming all images in a sequence.
+"""
 from __future__ import print_function
 import numpy as np
 import os
